@@ -37,6 +37,7 @@ const View = (props: Props) => {
     >
       <Img
         {...innerProps}
+        loading="lazy"
         className={className('view-image', { isFullscreen, isModal })}
         css={{
           height: 'auto',
